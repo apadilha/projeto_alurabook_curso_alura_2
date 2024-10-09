@@ -1,0 +1,34 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("carrocel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-fundo-degrade: linear-gradient(97.5deg, #002F52 35.49%, #326589 165.37%);
+    
+    --cor-header:   #FFFFFF;
+    --cor-header-2: #002F52;
+
+    --cor-de-fundo-botoes: #EB9B00;
+
+    --cor-font-text-padrao: #FFFFFF;
+    --cor-font-text-hamburgue: #EB9B00;
+    --cor-font-text-hamburgue-degrade: linear-gradient(97.5deg, #002F52 35.49%, #326589 165.37%);
+    --cor--font-text-subtitulo: #EB9B00;
+    --cor-font-text-h2: #002F52;
+
+    --cor-bordar-pesquisa: #ffffff;
+
+    --font-principal: "poppins", sans-serif;
+    --font-secundaria: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
